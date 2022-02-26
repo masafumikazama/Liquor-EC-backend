@@ -1,0 +1,13 @@
+module Api
+  module V1
+    class LiquorsController < ApplicationController
+      def index
+        liquors = Liquor.all
+
+        render json: {
+          liquors: liquors
+        }, status: :ok
+      end
+    end
+  end
+end
