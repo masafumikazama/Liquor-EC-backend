@@ -11,7 +11,7 @@ Liquor.create!(
   types_of: "Beer",
   price: "12.00",
   country: "Japan",
-  avatar: File.open("#{Rails.root}/public/uploads/post/image/1/Asahi_images.jpeg")
+  avatar: File.open("#{Rails.root}/public/uploads/Asahi_images.jpeg")
 )
 
 Liquor.create!(
@@ -19,7 +19,55 @@ Liquor.create!(
   types_of: "Beer",
   price: "12.00",
   country: "Japan",
-  avatar: File.open("#{Rails.root}/public/uploads/post/image/1/Asahi_images.jpeg")
+  avatar: File.open("#{Rails.root}/public/uploads/kirin_images.jpeg")
+)
+
+Liquor.create!(
+  name: "Hibiki",
+  types_of: "Whiskey",
+  price: "130.00",
+  country: "Japan",
+  avatar: File.open("#{Rails.root}/public/uploads/Hibiki_images.jpg")
+)
+
+Liquor.create!(
+  name: "Yamazaki",
+  types_of: "Whiskey",
+  price: "150.00",
+  country: "Japan",
+  avatar: File.open("#{Rails.root}/public/uploads/Yamazaki_images.jpg")
+)
+
+Liquor.create!(
+  name: "VB",
+  types_of: "Beer",
+  price: "10.00",
+  country: "Australia",
+  avatar: File.open("#{Rails.root}/public/uploads/VB_images.jpg")
+)
+
+Liquor.create!(
+  name: "Tooheys",
+  types_of: "Beer",
+  price: "11.00",
+  country: "Australia",
+  avatar: File.open("#{Rails.root}/public/uploads/Tooheys_images.jpg")
+)
+
+Liquor.create!(
+  name: "Sullivan’s-Cove",
+  types_of: "Whiskey",
+  price: "110.00",
+  country: "Australia",
+  avatar: File.open("#{Rails.root}/public/uploads/Sullivan’s-Cove_images.jpg")
+)
+
+Liquor.create!(
+  name: "Timboon",
+  types_of: "Whiskey",
+  price: "120.00",
+  country: "Australia",
+  avatar: File.open("#{Rails.root}/public/uploads/Timboon_images.jpg")
 )
 
 puts "Liquor Created"
