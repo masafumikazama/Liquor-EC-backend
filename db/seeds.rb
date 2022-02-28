@@ -10,12 +10,16 @@ Liquor.create!(
   name: "Asahi",
   types_of: "Beer",
   price: "12.00",
-  country: "Japan")
+  country: "Japan",
+  avatar: File.open("#{Rails.root}/public/uploads/post/image/1/Asahi_images.jpeg")
+)
 
 Liquor.create!(
   name: "Kirin",
   types_of: "Beer",
   price: "12.00",
-  country: "Japan")
+  country: "Japan",
+  avatar: File.open("#{Rails.root}/public/uploads/post/image/1/Asahi_images.jpeg")
+)
 
 puts "Liquor Created"
