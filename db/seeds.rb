@@ -8,13 +8,13 @@
 
 Liquor.create!(
   name: "Asahi",
-  type: "Beer",
+  types_of: "Beer",
   price: "12.00",
   country: "Japan")
 
 Liquor.create!(
   name: "Kirin",
-  type: "Beer",
+  types_of: "Beer",
   price: "12.00",
   country: "Japan")
 
